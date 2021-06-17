@@ -1,0 +1,68 @@
+body{
+    background-image: url("./img/Grey\ Gradient\ Background\ Bokeh\ Free\ Vector.jpg");
+}
+.col {
+    height: 300px;
+    width: 270px;
+}
+.row{
+    justify-content: center;
+    /* text-align: center; */
+    margin: 4px 28px;
+}
+.card:hover{
+    color: white;
+    background-color: rgb(56, 56, 56);
+    cursor: pointer;
+}
+.card{
+    border-radius: 40px;
+}
+
+.col .card svg{
+    height: 58px;
+    margin: 33px 7px;
+    width: 85px;
+}
+.card-body{
+    margin: -8px 0px;
+}
+.card-body .star svg{
+    height: 18px;
+    width: 14px;
+    margin: 0px 0px;
+}
+.price1 h2{
+    font-size: 27px;
+    display: flex;
+    margin: -3px 24px;
+        
+}
+.price1 img{
+    width: 22px;
+    height: 21px;
+    margin: 6px 4px;
+}
+
+.card-img, .card-img-bottom, .card-img-top {
+    width: 101%;
+    margin: -1px -1px;
+    border-radius: 25px;
+}
+#starprice{
+    display: flex;
+}
+.navbar-light .navbar-brand {
+    color: rgba(0,0,0,.9);
+    font-size: 27px;
+    margin-top: -7px;
+    font-family: 'Rubik', sans-serif;
+}
+.nav-item {
+    font-size: 16px;
+    padding: 0px 10px;
+    font-family: 'Rubik', sans-serif;
+}
+.card-title, .card-text, .price1{
+    font-family: 'Rubik', sans-serif;
+}
